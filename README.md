@@ -4,7 +4,7 @@ Lightweight Docker container, built on top of the `alpine` image, that checks yo
 
 ## Dnsimple API Authentication
 
-Currently, the only supported api authentication is simple auth with dnsimple email:password. OAuth support coming soon (feel free to send a PR)
+Currently, the only supported api authentication is simple auth with dnsimple email:password. OAuth support coming ~~soon~~ eventually (feel free to send a PR)
 
 ## Configuring Container
 
