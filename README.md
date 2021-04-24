@@ -38,7 +38,7 @@ Example: `ZONE_ID=example.com`
 
 This can be found by clicking on edit for the record in the dnsimple dashboard and looking in the URL for the record id.
 
-![Screenshot 2021-04-24 164227](https://user-images.githubusercontent.com/1733/115973644-3ada8980-a51c-11eb-88d3-db4821ccb24c.png)
+![Screenshot 2021-04-24 164745](https://user-images.githubusercontent.com/1733/115973715-d7049080-a51c-11eb-8e60-3d071ce8dcc8.png)
 
 Example: `RECORD_ID=12345678`
 
