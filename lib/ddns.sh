@@ -18,6 +18,7 @@ if [ -z "$RECORD_ID" ]; then
 fi
 
 CURRENT_IP=`curl --ipv4 -s http://icanhazip.com/`
+TTL=60
 
 touch $WORKDIR/.latest_ip
 LATEST_IP=`cat $WORKDIR/.latest_ip`
@@ -32,5 +33,5 @@ else
        -H "Accept: application/json" \
        -X "PATCH" \
        -i "https://api.dnsimple.com/v2/$ACCOUNT_ID/zones/$ZONE_ID/records/$RECORD_ID" \
-       -d "{\"content\":\"$CURRENT_IP\"}"
+       -d "{\"content\":\"$CURRENT_IP\",\"ttl\":$TTL}"
 fi
