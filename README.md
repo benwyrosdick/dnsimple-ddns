@@ -44,6 +44,8 @@ Example: `RECORD_ID=12345678`
 
 ## Docker Compose Example
 
+Here is an example `docker-compose.yml` file:
+
 ```
 version: "3.1"
 
@@ -55,4 +57,10 @@ services:
       ACCOUNT_ID: 12345
       ZONE_ID: "example.com"
       RECORD_ID: 12345678
+```
+
+Then you can start the process in the background:
+
+```
+docker compose up -d ddns
 ```
