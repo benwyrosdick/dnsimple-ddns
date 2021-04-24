@@ -22,6 +22,8 @@ Example: `AUTH="example@email.com:mySecretPassword"`
 
 This can be found by clicking on account in the dnsimple dashboard and looking in the URL for the account id.
 
+![Screenshot 2021-04-24 163726](https://user-images.githubusercontent.com/1733/115973640-34e4a880-a51c-11eb-8d7c-4bb32757d6b6.png)
+
 Example: `ACCOUNT_ID=12345`
 
 ### ZONE_ID
@@ -35,6 +37,8 @@ Example: `ZONE_ID=example.com`
 `RECORD_ID` contains the id for the record you wish to set.
 
 This can be found by clicking on edit for the record in the dnsimple dashboard and looking in the URL for the record id.
+
+![Screenshot 2021-04-24 164227](https://user-images.githubusercontent.com/1733/115973644-3ada8980-a51c-11eb-88d3-db4821ccb24c.png)
 
 Example: `RECORD_ID=12345678`
 
